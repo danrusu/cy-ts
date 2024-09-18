@@ -1,0 +1,23 @@
+{
+  "name": "cy-ts",
+  "version": "1.0.0",
+  "description": "Cypress with TypeScript POC",
+  "main": "index.js",
+  "scripts": {
+    "cy": "cypress run --browser chrome",
+    "cyo": "cypress open --browser chrome"
+  },
+  "keywords": [],
+  "author": "Dan Rusu <danginkgo@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.19",
+    "@types/cypress": "^0.1.6",
+    "@types/jquery": "^3.5.30",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^22.5.5",
+    "chai": "^5.1.1",
+    "cypress": "^13.14.2",
+    "typescript": "^5.6.2"
+  }
+}
